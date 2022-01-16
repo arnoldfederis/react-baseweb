@@ -27,7 +27,7 @@ const App = () => {
       <BaseProvider theme={theme === THEME.light ? LightTheme : DarkTheme}>
         <AppNavBar />
 
-        <BrowserRouter>
+        <BrowserRouter basename='/react-baseweb'>
           <Grid>
             <Cell span={12}>
               <Switch>
