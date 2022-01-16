@@ -26,7 +26,7 @@ const AppNavBar = () => {
         <Cell span={12}>
           <FlexGridItem display={'flex'} alignItems={'center'} justifyContent={'space-between'}>
             <HeadingLevel>
-              <StyledLink href={'/'} className="button-link">
+              <StyledLink href={'https://arnoldfederis.github.io/react-baseweb'} className="button-link">
                 <Heading styleLevel={5}>Books App</Heading>
               </StyledLink>
               <Button
