@@ -6,21 +6,20 @@ const initialState = {
   theme: get('theme') || THEME.light
 }
 
-const appReducer = (state = initialState, { type, payload }) => {
+const appReducer = (state = initialState, { type }) => {
   switch (type) {
-
     case INIT_THEME:
-      document.body.style.backgroundColor = getAccentColor(state.theme)
-
       if (get('theme')) {
         set('theme', get('theme'))
+        document.body.style.backgroundColor = getAccentColor(get('theme'))
         return { ...state, theme: get('theme') }
       } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         set('theme', THEME.dark)
+        document.body.style.backgroundColor = getAccentColor(THEME.dark)
         return { ...state, theme: THEME.dark }
       }
 
-      break;
+      break
 
     case TOGGLE_THEME:
       let newTheme = state.theme === THEME.light ? THEME.dark : THEME.light
