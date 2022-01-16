@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-baseweb/static/css/main.4e41e0e0.css",
+    "main.js": "/react-baseweb/static/js/main.5a02d2a5.js",
+    "static/js/787.6854c74b.chunk.js": "/react-baseweb/static/js/787.6854c74b.chunk.js",
+    "static/media/page-not-found.svg": "/react-baseweb/static/media/page-not-found.16f5794d88c31be8a478e3d33fc57028.svg",
+    "index.html": "/react-baseweb/index.html",
+    "main.4e41e0e0.css.map": "/react-baseweb/static/css/main.4e41e0e0.css.map",
+    "main.5a02d2a5.js.map": "/react-baseweb/static/js/main.5a02d2a5.js.map",
+    "787.6854c74b.chunk.js.map": "/react-baseweb/static/js/787.6854c74b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e41e0e0.css",
+    "static/js/main.5a02d2a5.js"
+  ]
+}
