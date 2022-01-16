@@ -1,0 +1,6 @@
+export const CREATE_BOOK = 'CREATE_BOOK'
+export const READ_BOOKS = 'READ_BOOKS'
+export const EDIT_BOOK = 'EDIT_BOOK'
+export const UPDATE_BOOK = 'UPDATE_BOOK'
+export const DELETE_BOOK = 'DELETE_BOOK'
+export const SET_IS_VIEWING = 'SET_IS_VIEWING'
